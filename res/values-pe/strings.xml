@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicacion para Censo</string>
+    <string name="action_settings">Opciones</string>
+    <string name="contact_name_hint">Introduzca Nombre</string>
+    <string name="contact_phone_hint">Introduzco Numero Telefonico</string>
+    <string name="contact_street_hint">Introduzca Direccion de Vivienda</string>
+    <string name="contact_city_hint">Introduzca Ciudad</string>
+
+</resources>

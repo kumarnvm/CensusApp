@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/contactNameEditText"
+            android:hint="@string/contact_name_hint"
+            android:inputType="textCapWords|textPersonName"
+            android:layout_marginBottom="@dimen/component_bottom_margin">
+        <requestFocus/>
+    </EditText>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/contactStreetAddressEditText"
+            android:hint="@string/contact_street_hint"
+            android:inputType="textCapWords|textPostalAddress"
+            android:layout_marginBottom="@dimen/component_bottom_margin">
+    </EditText>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/contactCityEditText"
+            android:hint="@string/contact_city_hint"
+            android:inputType="textCapWords|textPostalAddress"
+            android:layout_marginBottom="@dimen/component_bottom_margin">
+    </EditText>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/contactPhoneNumberEditText"
+            android:hint="@string/contact_phone_hint"
+            android:inputType="phone|textCapWords" android:layout_marginBottom="@dimen/component_bottom_margin">
+    </EditText>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_contacted_checkbox"
+                android:id="@+id/contactedCheckBox"/>
+    </TableRow>
+</TableLayout>
