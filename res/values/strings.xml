@@ -7,5 +7,8 @@
     <string name="contact_street_hint">Enter Street Address</string>
     <string name="contact_city_hint">Enter City</string>
     <string name="contact_contacted_checkbox">Contacted</string>
+    <string name="fragment_contact_list_title">Contacts</string>
+    <string name="list_item_contact_name">Name</string>
+    <string name="list_item_contact_street">Street</string>
 
 </resources>
